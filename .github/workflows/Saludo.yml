@@ -1,0 +1,8 @@
+Name: hola a todos desde el grupo primero 1 
+on: [push] 
+Jobs:
+Saludar:
+Runs-on: ubuntu-latest
+Steps:
+-name: muestra mensaje de saludar a todos los del grupo
+Run: echo "hola a todo el mundo" 
